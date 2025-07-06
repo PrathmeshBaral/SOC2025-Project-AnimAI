@@ -47,10 +47,10 @@ To reduce the noise, we applied a **temporal Gaussian filter** to smooth the key
 
 ### 🧮 Formula
 
-Given a time series \( x_t \), the smoothed output \( \tilde{x}_t \) is:
+Given a time series \( $$ x_t $$ \), the smoothed output \( $$ x̄_t $$ \) is:
 
 $$
-\tilde{x}_t = \sum_{k=-K}^{K} w_k \, x_{t+k}
+x̄_t = \sum_{k=-K}^{K} w_k \, x_{t+k}
 $$
 
 with weights:
