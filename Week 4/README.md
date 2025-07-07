@@ -10,16 +10,16 @@ In this assignment, we worked on **filling corrupted/missing frames** from a 2D 
 
 We used the **[VideoPose3D](https://github.com/facebookresearch/VideoPose3D)** dataset from Facebook Research, specifically the 2D keypoints data.
 
-- **Subject:** `S2`
+- **Subject:** `S7`
 - **Action:** `Walking 1`
 - **Camera View:** `Camera 0`
 
 ### 📐 Data Shape
 
-( 3236, 17, 2)
+( 3237, 17, 2)
 
 
-- **3236 frames** — Number of time steps (frames in the video).
+- **3237 frames** — Number of time steps (frames in the video).
 - **17 joints** — Each frame contains 17 body keypoints.
 - **2 coordinates** — Each keypoint has (x, y) positions in the image plane.
 
