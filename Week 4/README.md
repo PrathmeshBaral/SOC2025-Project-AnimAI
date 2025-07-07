@@ -16,10 +16,10 @@ We used the **[VideoPose3D](https://github.com/facebookresearch/VideoPose3D)** d
 
 ### 📐 Data Shape
 
-( 3237, 17, 2)
+( 3637, 17, 2)
 
 
-- **3237 frames** — Number of time steps (frames in the video).
+- **3637 frames** — Number of time steps (frames in the video).
 - **17 joints** — Each frame contains 17 body keypoints.
 - **2 coordinates** — Each keypoint has (x, y) positions in the image plane.
 
